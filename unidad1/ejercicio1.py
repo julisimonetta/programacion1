@@ -17,5 +17,3 @@ total = suma - comision; """ Calcular total """
 print(total); """ Imprimir total """
 # Agregar el condicional si los productos tienen importe cero
 # Agregar control de excepciones
-
-# voy a crear la rama desarrollo 
