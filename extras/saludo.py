@@ -1,3 +1,4 @@
+#realizo modificaciones en este archivo desde clonacion carpeta mosquetta
 #TARGETA DE CUMPLEAÑOS 1
 """
 nombre= input("Ingrese su nombre: ")
