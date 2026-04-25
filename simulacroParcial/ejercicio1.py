@@ -35,9 +35,16 @@ except ValueError:
 
 else:
     if cantDosis > 1:
+        print("Estado: Completo")
         if edad < 18:
+            print("Mayor de edad")
             print("Apto para actividades escolares")
         else:
+            print("Menor de edad")
             print("Pase sanitario habilitado")
     else:
         print("Debe completar esquema")
+        if cantDosis == 1:
+            print("Estado: Parcial")
+        else:
+            print("Estado: Sin vacunar")
